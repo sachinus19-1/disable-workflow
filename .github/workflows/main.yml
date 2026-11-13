@@ -1,0 +1,13 @@
+name: Diable Workflow video
+
+on:
+ push:
+  branches: [main]
+
+  jobs:
+   disable:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Sachin
+       run: echo "Diable workflow video"

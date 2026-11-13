@@ -1,13 +1,12 @@
-name: Diable Workflow video
-
+name: Disable Workflow Video
 on:
- push:
-   branches: [main]
-
+push:
+branches: [ main ]
 jobs:
-  disable:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Sachin
-       run: echo "Diable workflow video"
+disable:
+runs-on:
+ubuntu-latest
+steps:
+- name: Farzeen
+run: echo "Disbale
+Workflow Video Devops"|
